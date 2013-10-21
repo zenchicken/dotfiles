@@ -1,0 +1,3 @@
+[submodule ".vim/vam"]
+	path = .vim/vam
+	url = https://github.com/MarcWeber/vim-addon-manager.git
