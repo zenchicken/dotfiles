@@ -8,9 +8,7 @@ set laststatus=2
 
 set background=light
 "set background=dark
-call vam#ActivateAddons(['powerline'])
 execute pathogen#infect()
-"colorscheme Molokai
 colorscheme peaksea
 set encoding=utf-8
 set cursorline
@@ -27,8 +25,6 @@ let g:vmail_flagged_color = "ctermfg=darkblue"
 " add gocode path to PATH env
 let $PATH = '/Users/jhall/Source/go/bin:' . $PATH
 let $GOPATH = '/Users/jhall/Source/go'
-let $XIKI_DIR = "/Users/jhall/Source/github.com/trogdoro/xiki"
-source $XIKI_DIR/etc/vim/xiki.vim
 
 
 " add Go compiler support from .vim/bundle/go/compiler
