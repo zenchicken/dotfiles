@@ -1,3 +1,6 @@
 [submodule ".vim/vam"]
 	path = .vim/vam
 	url = https://github.com/MarcWeber/vim-addon-manager.git
+[submodule ".vim/powerline"]
+	path = .vim/powerline
+	url = git://github.com/Lokaltog/powerline
